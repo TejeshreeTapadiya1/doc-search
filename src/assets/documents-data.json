@@ -1,0 +1,40 @@
+{
+  "documents": [
+    {
+      "name": "Terminal instructables",
+      "type": "Technical"
+    },
+    {
+      "name": "Installation guides",
+      "type": "Technical"
+    },
+    {
+      "name": "Career opportunities",
+      "type": "Human resources"
+    },
+    {
+      "name": "Customer onboarding",
+      "type": "Financial"
+    },
+    {
+      "name": "Outlet branding",
+      "type": "Marketing"
+    },
+    {
+      "name": "Accounting procedures",
+      "type": "Financial"
+    },
+    {
+      "name": "Training",
+      "type": "Human resources"
+    },
+    {
+      "name": "Printing guidance",
+      "type": "Marketing"
+    },
+    {
+      "name": "Technical support",
+      "type": "Technical"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 25%;
+  .category {
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px 0;
+    margin: 5px;
+    color: #5a5959;
+  }
+}

@@ -1,0 +1,20 @@
+<section class="filter-wrapper">
+  <div class="keyword-wrapper">
+    <input
+      class="input-form-control"
+      type="text"
+      [formControl]="search"
+      id="keyword"
+      placeholder="Start typing document name..."
+      autofocus
+    />
+  </div>
+  <ul class="filter-select">
+    <li *ngFor="let result of results" class="filter-select-list">
+      <span class="document">
+        {{ result.name }}
+      </span>
+      <span class="tags">{{ result.type }}</span>
+    </li>
+  </ul>
+</section>

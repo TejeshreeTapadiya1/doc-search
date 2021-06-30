@@ -1,0 +1,8 @@
+<a
+  class="category"
+  [ngStyle]="{'font-weight': selectedCategory === category ? 'bold' : '' }"
+  *ngFor="let category of categories$ | async; index as i"
+  (click)="selectCategory(category); selectedCategory = category"
+>
+  {{ category }}
+</a>
